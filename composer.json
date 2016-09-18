@@ -1,0 +1,52 @@
+{
+	"name": "gavinggordon/transpositioncipher",
+	"description": "A basic columnar transposition cipher class in PHP.",
+	"license": "MIT",
+	"keywords": [
+	  	"v0.0.1",
+		"php",
+		"cipher",
+		"cypher",
+		"encode",
+		"encrypt",
+		"encrypter",
+		"encryption",
+		"encrypting",
+		"decipher",
+		"decypher",
+		"decode",
+		"decrypt",
+		"decrypter",
+		"decryption",
+		"decrypting"
+	],
+	"authors": [
+		{
+			"name": "Gavin G Gordon",
+			"email": "support@gavingordon.com",
+			"homepage": "https://gavingordon.com",
+			"role": "Developer"
+		}
+	],
+	"version": "0.0.1",
+	"minimum-stability": "stable",
+	"support": {
+		"issues": "https://github.com/gavinggordon/transpositioncipher/issues",
+		"source": "https://github.com/gavinggordon/transpositioncipher"
+	},
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/gavinggordon/transpositioncipher.git"
+		}
+	],
+	"require": {},
+	"require-dev": {
+		"phpunit/phpunit": "4.0.*"
+	},
+	"autoload": {
+			"psr-4": {
+				"GGG\\": "src"
+		}
+	}
+}
