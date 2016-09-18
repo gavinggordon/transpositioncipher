@@ -387,6 +387,16 @@ class TranspositionCipher
     return 'An error was encountered while calculating the key order.'; 
   }
 
+ /*
+  *
+  * @var $params array[String text,String key] 
+  * 					'text' is used as the text to encode; 
+  * 					'key' is used as the private key;
+  * @var $fmt int|bool
+  *						if 0|false, result is not formatted;
+  *						if 1|true, result is formatted;
+  *
+  */
   public function encrypt( $params, $fmt = 0 )
   {
     if( $this->prepEncryption( $params['text'], $params['key'] ) )
