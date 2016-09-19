@@ -1,6 +1,6 @@
 <?php
 
-namecheap GGG;
+namespace GGG;
 
 class TranspositionCipher
 {
